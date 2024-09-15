@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "question": "What is Fruits.ai?",
+    "answer": "Fruits.ai is an AI-driven platform for fruit recommendations."
+  },
+  {
+    "id": 2,
+    "question": "How does Fruits.ai work?",
+    "answer": "Fruits.ai use AI powered technology to analyzes your health data and suggests suitable fruits."
+  },
+  {
+    "id": 3,
+    "question": "What fruits are best for weight loss?",
+    "answer": "Fruits like apples, berries, and citrus are great for weight loss."
+  },
+  {
+    "id": 4,
+    "question": "How is Tangerine healthy?",
+    "answer": "Tangerine are a great health booster due to their high vitamin C content, which supports the immune system and skin health. "
+  }
+]
