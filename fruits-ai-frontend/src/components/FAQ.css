@@ -1,0 +1,110 @@
+/* FAQ.css */
+.faq-container {
+    width: 100wh;
+    margin: 0 auto;
+    background: linear-gradient(180deg, #48bfe3, #80ffdb);
+    padding: 40px;
+    height: 100vh;
+  }
+  .faq-container h2{
+    color: #fff;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #4ea8de;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #5390d9;
+  }
+  
+  .faqs-list {
+    margin-top: 20px;
+  }
+  
+  .faq-item {
+    margin-bottom: 15px;
+    background-color: #4ea8de;
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .faq-question {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.4s ease;
+  }
+  
+  .faq-answer.show {
+    max-height: 1000px; /* large enough to fit the answer */
+    padding-top: 10px;
+  }
+  
+  .faq-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .faq-actions svg {
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .faq-actions svg:hover {
+    color: #5390d9;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .faq-container {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .faq-question {
+      font-size: 16px;
+    }
+  
+    .faq-answer {
+      font-size: 14px;
+    }
+  
+    input, textarea, button {
+      font-size: 14px;
+    }
+  }
+  

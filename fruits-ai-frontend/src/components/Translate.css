@@ -1,0 +1,74 @@
+/* Translate.css */
+.translate-container {
+    width: 100wh;
+    height: 100vh;
+    margin: 0 auto;
+    background: linear-gradient(180deg, #48bfe3, #80ffdb);
+    padding: 20px;
+    /* border-radius: 15px;  */
+  }
+  .translate-container h2{
+    text-align: center;
+    color:#fff;
+  }
+  .dropdown-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 50px;
+  }
+  
+  label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #fff;
+  }
+  
+  select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4ea8de;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #5390d9;
+  }
+  
+  .translated-card {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #4ea8de;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .translated-card h3 {
+    margin-bottom: 10px;
+  }
+  
+  .translated-card p {
+    font-size: 18px;
+  }
+  
