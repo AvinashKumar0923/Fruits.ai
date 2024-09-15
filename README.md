@@ -1,2 +1,1 @@
 # Fruits.ai
-Assessment
